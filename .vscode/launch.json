@@ -17,6 +17,24 @@
       "name": "Release demo2 (swift/demo2)",
       "program": "${workspaceFolder:TIEA1130}/swift/demo2/.build/release/demo2",
       "preLaunchTask": "swift: Build Release demo2 (swift/demo2)"
+    },
+    {
+      "type": "swift",
+      "request": "launch",
+      "args": [],
+      "cwd": "${workspaceFolder:TIEA1130}/swift/demot",
+      "name": "Debug demo2 (swift/demot)",
+      "program": "${workspaceFolder:TIEA1130}/swift/demot/.build/debug/demo2",
+      "preLaunchTask": "swift: Build Debug demo2 (swift/demot)"
+    },
+    {
+      "type": "swift",
+      "request": "launch",
+      "args": [],
+      "cwd": "${workspaceFolder:TIEA1130}/swift/demot",
+      "name": "Release demo2 (swift/demot)",
+      "program": "${workspaceFolder:TIEA1130}/swift/demot/.build/release/demo2",
+      "preLaunchTask": "swift: Build Release demo2 (swift/demot)"
     }
   ]
 }

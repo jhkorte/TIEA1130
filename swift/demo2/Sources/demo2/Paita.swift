@@ -14,4 +14,4 @@ class Paita {
     func describe() -> String {
         return "Tällä paidalla on seuraavat ominaisuudet: väri: \(color), hihat: \(hihat), kaulus: \(kaulus), materiaali: \(materiaali)"
     }
-}
+}   

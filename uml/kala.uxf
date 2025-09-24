@@ -1,0 +1,18 @@
+<diagram program="umletino" version="15.1"><zoom_level>10</zoom_level><element><id>UMLClass</id><coordinates><x>360</x><y>130</y><w>120</w><h>120</h></coordinates><panel_attributes>Kala
+--
+-nimi: String
+-väri: String
+-ruoka: String
+--
+-blub()
+-syö()</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>270</x><y>330</y><w>130</w><h>100</h></coordinates><panel_attributes>Kultakala : Kala
+--
+nimi: "Kultakala"
+väri = "kulta"
+ruoka = "levä"
+--</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>480</x><y>330</y><w>130</w><h>100</h></coordinates><panel_attributes>Ruskeakala : Kala
+--
+nimi: "Ruskeakala"
+väri = "ruskea"
+ruoka = "kultakala"
+--</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>310</x><y>240</y><w>130</w><h>110</h></coordinates><panel_attributes>lt=&lt;&lt;.</panel_attributes><additional_attributes>110;10;10;90</additional_attributes></element><element><id>Relation</id><coordinates><x>410</x><y>240</y><w>140</w><h>110</h></coordinates><panel_attributes>lt=&lt;&lt;.</panel_attributes><additional_attributes>10;10;120;90</additional_attributes></element></diagram>
