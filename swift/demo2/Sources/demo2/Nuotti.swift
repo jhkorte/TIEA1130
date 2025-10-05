@@ -12,4 +12,8 @@ class Nuotti {
     func describe() -> String {
         return "Nuotti: \(kirjain), Oktaavi: \(oktaavi), Pituus: \(pituus)"
     }
+
+    func soita() -> String {
+        return "\(kirjain)\(oktaavi)--\(pituus)"
+    }
 }
